@@ -12,3 +12,6 @@ for h1 in h_words:
       for p in p_words:
         if SATOR(h1, h2, p):
           solution.append([h1,h2,p])
+            
+print("Total solutions:", len(solution))
+print(solution)
