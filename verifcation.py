@@ -1,3 +1,4 @@
+#Note that both h1 and h2 will be from Dic/h and p from Dic/p in the final runtest
 def SATOR(h1, h2, p):
     """Verify if those words can be a sator square"""
     sq = [h1, h2, p, h2[::-1], h1[::-1]]
